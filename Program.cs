@@ -18,70 +18,67 @@ namespace URI_1066
             int valoresNegativos = 0;
 
             if (valor1 % 2 == 0){
-                valoresPares += 1;
+                valoresPares ++;
             }
             else {
-                valoresImpares += 1;
+                valoresImpares ++;
             }
             if (valor2 % 2 == 0){
-                valoresPares += 1;
+                valoresPares ++;
             }
             else {
-                valoresImpares += 1;
+                valoresImpares ++;
             }
             if (valor3 % 2 == 0){
-                valoresPares += 1;
+                valoresPares ++;
             }
             else {
-                valoresImpares += 1;
+                valoresImpares ++;
             }
             if (valor4 % 2 == 0){
-                valoresPares += 1;
+                valoresPares ++;
             }
             else {
-                valoresImpares += 1;
+                valoresImpares ++;
             }
             if (valor5 % 2 == 0){
-                valoresPares += 1;
+                valoresPares ++;
             }
             else {
-                valoresImpares += 1;
+                valoresImpares ++;
             }
             if (valor1 > 0){
-                valoresPositivos += 1;
+                valoresPositivos ++;
             }
             else if (valor1 <0){
-                valoresNegativos += 1;
+                valoresNegativos ++;
             }
             if (valor2 >= 0){
-                valoresPositivos += 1;
-            }
-            else if (valor2 <0){
-                valoresNegativos += 1;
+                valoresNegativos ++;
             }
             if (valor3 >= 0){
-                valoresPositivos += 1;
+                valoresPositivos ++;
             }
             else if (valor3 <0){
-                valoresNegativos += 1;
+                valoresNegativos ++;
             }
             if (valor4 >= 0){
-                valoresPositivos += 1;
+                valoresPositivos ++;
             }
             else if (valor4 <0) {
-                valoresNegativos += 1;
+                valoresNegativos ++;
             }
             if (valor5 >= 0){
-                valoresPositivos += 1;
+                valoresPositivos ++;
             }
             else if (valor5 <0) {
-                valoresNegativos += 1;
+                valoresNegativos ++;
             }
             Console.WriteLine(valoresPares + " valor(es) par(es)");
             Console.WriteLine(valoresImpares + " valor(es) impar(es)");
             Console.WriteLine(valoresPositivos + " valor(es) positivo(s)");
             Console.WriteLine(valoresNegativos + " valor(es) negativo(s)");
-            Console.ReadLine();
+            
         }
     }
 }
