@@ -50,37 +50,39 @@ namespace URI_1066
             if (valor1 > 0){
                 valoresPositivos ++;
             }
-            else {
+            else if (valor1 <0){
                 valoresNegativos ++;
             }
             if (valor2 > 0){
                 valoresPositivos ++;
             }
-            else {
+            else if (valor2 <0) {
                 valoresNegativos ++;
             }
             if (valor3 > 0){
                 valoresPositivos ++;
             }
-            else {
+            else if (valor3 <0) {
                 valoresNegativos ++;
             }
             if (valor4 > 0){
                 valoresPositivos ++;
             }
-            else {
+            else if (valor4 <0) {
                 valoresNegativos ++;
             }
             if (valor5 > 0){
                 valoresPositivos ++;
             }
-            else {
+            else if (valor5 <0) {
                 valoresNegativos ++;
             }
             Console.WriteLine(valoresPares + " valor(es) par(es)");
             Console.WriteLine(valoresImpares + " valor(es) impar(es)");
             Console.WriteLine(valoresPositivos + " valor(es) positivo(s)");
             Console.WriteLine(valoresNegativos + " valor(es) negativo(s)");
+
+            Console.ReadLine();
             
         }
     }
